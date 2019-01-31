@@ -1,0 +1,16 @@
+<div class="mat-app-background fullscreen">
+
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link [routerLink]="['/tab1']" routerLinkActive #rla1="routerLinkActive" [active]="rla1.isActive">
+      Tab 1
+    </a>
+    <a mat-tab-link [routerLink]="['/tab2']" routerLinkActive #rla2="routerLinkActive" [active]="rla2.isActive">
+      Tab 2
+    </a>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+</div>
+
+<ss-loading-overlay></ss-loading-overlay>
