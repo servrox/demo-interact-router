@@ -47,7 +47,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
+    "typescript": "~6.0.0"
   },
   "description": "Demo: Parent and lazy loaded components communicate via a service"
 }
